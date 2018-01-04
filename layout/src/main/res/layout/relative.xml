@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtInfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入短信内容"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtInfor"
+        android:layout_below="@id/txtInfor"
+        android:background="#00eeff"
+        android:gravity="left|top"
+        android:minHeight="100dp" />
+
+    <Button
+        android:id="@+id/btnClearSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtSMS"
+        android:layout_marginRight="80dp"
+        android:text="清除" />
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btnClearSMS"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="发送" />
+</RelativeLayout>

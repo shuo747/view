@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.buaa.view.activity.ShowViewActivity">
+
+    <TextView
+        android:id="@+id/show_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本节只讲述一部分控件"
+        android:textColor="#FF4040"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/show_edit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:enabled="true"
+        android:hint="请输入文字"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展现一个button按钮"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/show_group_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/lanqiu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="篮球" />
+
+        <RadioButton
+            android:id="@+id/paiqiu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排球" />
+
+        <RadioButton
+            android:id="@+id/pingpang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乒乓" />
+    </RadioGroup>
+
+</LinearLayout>

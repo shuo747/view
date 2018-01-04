@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AMap2DDemo/AMap2DDemo.iml" filepath="$PROJECT_DIR$/AMap2DDemo/AMap2DDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContentResolve/ContentResolve.iml" filepath="$PROJECT_DIR$/ContentResolve/ContentResolve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layout/layout.iml" filepath="$PROJECT_DIR$/layout/layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/video/video.iml" filepath="$PROJECT_DIR$/video/video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view.iml" filepath="$PROJECT_DIR$/view.iml" />
+    </modules>
+  </component>
+</project>

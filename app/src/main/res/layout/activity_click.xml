@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/long_click_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.buaa.view.activity.ClickActivity">
+
+    <Button
+        android:id="@+id/click_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击我进行测试" />
+
+    <TextView
+        android:id="@+id/text_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是TextView"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/edti_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp" />
+
+    <Spinner
+        android:id="@+id/spinner_event"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:entries="@array/location" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择性别："
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/sex_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/male">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+</LinearLayout>
