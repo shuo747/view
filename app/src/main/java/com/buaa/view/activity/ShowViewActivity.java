@@ -26,6 +26,7 @@ public class ShowViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_show_view);
         initView();
         myDialog();
+        //test
     }
 
     private void initView() {
